@@ -15,11 +15,11 @@ let letterIndex = 0;
 // Body color
 scroll.on("scroll", () => {
   if (document.querySelector("#color.is-inview")) {
-    document.body.style.background = "#161616ed";
+    document.body.style.background = "#212a39";
     document.body.style.color = "#fefeff";
   } else {
     document.body.style.background = "#fefeffe6";
-    document.body.style.color = "#161616ed";
+    document.body.style.color = "#212a39";
   }
 });
 

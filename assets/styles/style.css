@@ -18,7 +18,7 @@
 }
 
 *::selection {
-  background: #161616ed;
+  background: #212a39;
   color: #fefeff;
 }
 
@@ -28,7 +28,7 @@ html {
 
 body {
   font-family: "font1", serif;
-  background: #161616ed;
+  background: #212a39;
   color: #fefeffe6;
   transition: 0.7s ease-in-out;
 }
@@ -62,7 +62,7 @@ h2 {
 .title {
   font-size: calc(1.5rem + 5vw);
   letter-spacing: 0;
-  color: rgba(190, 132, 81, 0.541);
+  color: #AF6259;
 }
 
 span {
@@ -92,11 +92,11 @@ a::after {
 }
 a:hover {
   transform: scale(1.04);
-  color: rgb(166, 114, 69);
+  color: #AF6259;
 }
 a:hover::after {
   animation: animLink 2s infinite ease-in-out;
-  background: rgb(166, 114, 69);
+  background: #AF6259;
 }
 
 @keyframes animLink {
@@ -124,7 +124,7 @@ a:hover::after {
   height: 1px;
   width: 70%;
   margin: 0 auto;
-  background: rgb(166, 114, 69);
+  background: #AF6259;
   transition: 1.3s cubic-bezier(0.77, 0, 0.18, 1);
   transition-delay: 0.35s;
   opacity: 0;
@@ -174,7 +174,7 @@ h1 {
   margin-top: 70px;
   font-family: "font-title", serif;
   letter-spacing: 6px;
-  color: rgb(166, 114, 69);
+  color: #AF6259;
 }
 
 header h2 {
@@ -240,7 +240,7 @@ h3 {
   font-family: "font-title";
   font-size: 2rem;
   text-align: center;
-  color: rgb(166, 114, 69);
+  color: #AF6259;
   font-weight: bold;
 }
 @media screen and (max-width: 480px) {
@@ -317,10 +317,10 @@ h3 {
 
 .link-contact-home {
   font-family: "font1", serif;
-  font-size: calc(0.7em + 0.7vw);
+  font-size: calc(0.6em + 0.6vw);
   color: rgb(40, 39, 39);
   background: none;
-  border-bottom: 2px solid rgba(30, 29, 29, 0.854);
+  border-bottom: 2px solid #AF6259;
   transition: .5s ease-in-out;
 }
 @media screen and (max-width: 480px) {
@@ -450,8 +450,8 @@ summary {
   font-size: calc(0.8rem + 5vw);
   font-family: "font-title", serif;
   letter-spacing: 4px;
-  background: rgb(166, 114, 69);
-  box-shadow: 2px 3px 1px rgba(106, 73, 44, 0.842);
+  background: #AF6259;
+  box-shadow: 2px 3px 1px #5d3e3bdd;
   border-radius: 25px;
   color: #fefeff;
   text-shadow: 1px 2px 2px rgb(26, 25, 25);
