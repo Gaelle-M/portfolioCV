@@ -299,6 +299,7 @@ h3 {
   line-height: calc(4px + 3vw);
   font-size: calc(0.7em + 0.7vw);
   letter-spacing: 1px;
+  color: #324159;
 }
 @media screen and (max-width: 480px) {
   .about p {
@@ -317,15 +318,15 @@ h3 {
 
 .link-contact-home {
   font-family: "font1", serif;
-  font-size: calc(0.7em + 0.7vw);
-  color: rgb(40, 39, 39);
+  font-size: calc(0.6em + 0.7vw);
+  color: #324159;
   background: none;
-  border-bottom: 2px solid #AF6259;
+  border-bottom: 1px solid #AF6259;
   transition: .5s ease-in-out;
 }
 @media screen and (max-width: 480px) {
   .link-contact-home {
-    font-size: calc(0.8em + 0.8vw);
+    font-size: calc(0.7em + 0.7vw);
   }
   
 }
@@ -334,7 +335,7 @@ h3 {
   position: relative;
   text-decoration: none;
   font-size: calc(0.6rem + 0.6vw);
-  color: rgb(40, 39, 39);
+  color: #324159;
   
 }
 .link-contact-home:hover {
@@ -343,6 +344,7 @@ h3 {
 
 .signature {
   text-align: right;
+  font-family: "fonttitle";
 }
 
 .about .text-1 {
