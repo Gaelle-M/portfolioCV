@@ -208,6 +208,7 @@ header h2 {
 
 .img1 {
   background: url(../img/imgHome/photo-profil.jpeg) top/cover;
+
 }
 @media screen and (max-width: 480px) {
   .img1 {
